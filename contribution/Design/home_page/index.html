@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tailwind.css"> <!-- Add Tailwind CSS file -->
+    <link rel="stylesheet" href="../home_page/styles.css"> <!-- Add your custom CSS file -->
+    <title>TastyBites - Home</title>
+</head>
+<body>
+    <header class="bg-primary text-white text-center py-4">
+        <h1 class="text-3xl">TastyBites</h1>
+        <p>Discover and share delicious recipes</p>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="container flex justify-between items-center py-4">
+            <a href="#" class="navbar-brand text-2xl text-white">TastyBites</a>
+            <ul class="nav-menu flex space-x-6">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Recipes</a></li>
+                <li><a href="#">Profile</a></li>
+                <li><a href="#">Login</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="container mx-auto mt-5" id="recipeContainer">
+        <!-- Recipe cards will be generated dynamically here -->
+    </main>
+
+    <footer class="bg-primary text-white text-center py-3">
+        <p>&copy; 2023 TastyBites</p>
+    </footer>
+
+    <script src="../home_page/script.js"></script> <!-- Add your custom JavaScript file -->
+</body>
+</html>
